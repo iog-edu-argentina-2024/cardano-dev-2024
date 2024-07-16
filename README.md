@@ -47,7 +47,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | Parte 5       | 🎞️ Blockchains, Tx, Bloques, Nodos, y Billeteras |          -             |
 | **Día 02**    |                                                  |                        |
 | Parte 1       | 🎞️ Modelo UTxO                                   |          -             |        
-| Parte 2       |  -️                                               | [Diagramar transacción UTxO](https://classroom.github.com/a/Krj1bLI7) |        
+| Parte 2       |  -️                                               | [Diagramar transacción UTxO](https://classroom.github.com/a/fixcHZ3-) |        
 | Parte 3       |  -                                               | Crear Tx con billetera e inspeccionar con chain explorer |        
 | Parte 4       | 🎞️ Modelo (E)UTxO                                |          -             |        
 | Parte 5       | 🎞️ On-chain VS Off-chain                         |          -             |        
