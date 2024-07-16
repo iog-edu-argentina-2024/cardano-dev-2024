@@ -31,7 +31,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 
 ## Lecciones
 
-- 🎞️ Diapositivas
+- 🎞️ [Diapositivas](diapositivas/)
 - 👣 Live coding - Follow along
 - 👀 Explicar código/documentacion
 - ✍️ Ejercicios/Proyecto
