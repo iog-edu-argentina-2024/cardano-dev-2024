@@ -96,7 +96,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 
 - **Día 01:** [Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - **Día 01:** [Reward Sharing Schemes for Stake Pools](https://arxiv.org/ftp/arxiv/papers/1807/1807.11218.pdf)
-- **Día 02:** [The extended UTXO Model](https://files.zotero.net/eyJleHBpcmVzIjoxNzE5NDE4MDY5LCJoYXNoIjoiYTVhYmY4NjdiY2E2YzdkNTNjODkwNWNmZDZhYmM5MjAiLCJjb250ZW50VHlwZSI6ImFwcGxpY2F0aW9uXC9wZGYiLCJjaGFyc2V0IjoiIiwiZmlsZW5hbWUiOiJDaGFrcmF2YXJ0eSBldCBhbC4gLSAyMDIwIC0gVGhlIEV4dGVuZGVkIFVUWE8gTW9kZWwucGRmIn0%3D/67e640ec5942fd39615e78de8b168dc94c2d4553efea4b009953e58db354fd4b/Chakravarty%20et%20al.%20-%202020%20-%20The%20Extended%20UTXO%20Model.pdf)
+- **Día 02:** [The extended UTXO Model](https://api.zotero.org/groups/478201/items/T24L95MI/file/view?key=PnpP8O1NApZMMF0LVNh7I4I5)
 - **Día 03:** [UTxO- vs account-based smart contract blockchain programming paradigms](https://arxiv.org/pdf/2003.14271)
 - **Día 04:** [Formal Specification of the Plutus Core Language - Capítulos 1 y 2.1](https://intersectmbo.github.io/plutus/resources/plutus-core-spec.pdf)
 - **Día 05:** [CIP-0001](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0001) y [CIP-0019](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0019)
