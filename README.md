@@ -48,7 +48,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | **Día 02**    |                                                  |                        |
 | Parte 1       | 🎞️ Modelo UTxO                                   |          -             |        
 | Parte 2       |  -️                                               | [Diagramar transacción UTxO](https://classroom.github.com/a/fixcHZ3-) |        
-| Parte 3       |  -                                               | Crear Tx con billetera e inspeccionar con chain explorer(https://classroom.github.com/a/sM70_G3t) |        
+| Parte 3       |  -                                               | [Crear Tx con billetera e inspeccionar con chain explorer](https://classroom.github.com/a/sM70_G3t) |        
 | Parte 4       | 🎞️ Modelo (E)UTxO                                |          -             |        
 | Parte 5       | 🎞️ On-chain VS Off-chain                         |          -             |        
 | **Día 03**    |                                                  |                        | 
