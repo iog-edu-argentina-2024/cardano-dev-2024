@@ -1,0 +1,16 @@
+{
+  "name": "intro_mesh",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple-tx.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "roberm",
+  "license": "MIT",
+  "dependencies": {
+    "@meshsdk/core": "^1.5.25",
+    "tsx": "^4.16.2"
+  }
+}
