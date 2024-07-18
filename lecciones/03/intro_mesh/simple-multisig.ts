@@ -1,4 +1,4 @@
-import { BlockfrostProvider, MeshWallet, NativeScript, resolveNativeScriptAddress, resolvePaymentKeyHash, Transaction } from "@meshsdk/core";
+import { BlockfrostProvider, MeshTxBuilder, MeshWallet, NativeScript, resolveNativeScriptAddress, resolveNativeScriptHex, resolvePaymentKeyHash, Transaction, UTxO } from "@meshsdk/core";
 
 const proveedor = new BlockfrostProvider("preprodTs9TeCpur1MF6NlYABy4B592ds93fG18")
 
@@ -64,17 +64,36 @@ async function encerrarEnScript(valor: string) {
 }
 
 async function liberarDeScript() {
-  const wUtxos = await wallet1.getUtxos();
+  const wUtxos: UTxO = (await wallet1.getUtxos())[0];
   console.log("wUtxos", wUtxos)
-  const sUtxos = await proveedor.fetchAddressUTxOs(scriptAddr)
+  const sUtxos = (await proveedor.fetchAddressUTxOs(scriptAddr))[0];
   console.log("sUtxos", sUtxos)
 
+  const tx = new MeshTxBuilder({})
+    .txIn(
+      wUtxos.input.txHash,
+      wUtxos.input.outputIndex,
+      wUtxos.output.amount,
+      wAddr1
+    )
+    .txIn(
+      sUtxos.input.txHash,
+      sUtxos.input.outputIndex,
+      sUtxos.output.amount,
+      scriptAddr
+    )
+    .requiredSignerHash(resolvePaymentKeyHash(wAddr1))
+    .requiredSignerHash(resolvePaymentKeyHash(wAddr2))
+    .txInScript(resolveNativeScriptHex(multisigScript))
+    .changeAddress(wAddr1)
+    .completeSync()
+
+
+  const txFirmadaPor1 = await wallet1.signTx(tx.txHex, true)
+  const txFirmadaPor2 = await wallet2.signTx(txFirmadaPor1, true)
+  const txHash = await wallet1.submitTx(txFirmadaPor2)
+  console.log("hash de Tx: ", txHash)
 }
 
 await liberarDeScript()
-
-
-
-
-
 
