@@ -54,8 +54,8 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | **Día 03**    |                                                  |                        | 
 | Parte 1       | 👣 Intro a MeshJS y crear primer Tx              |          -             |        
 | Parte 2       | 🎞️ Native Scripts                                |          -             |        
-| Parte 3       |  -                                               | Crear Multisig        |        
-| Parte 4       |  -                                               | Crear Vesting       |        
+| Parte 3       |  -                                               | [Crear Multisig](https://classroom.github.com/a/iB9Lap7W)        |        
+| Parte 4       |  -                                               | [Crear Vesting](https://classroom.github.com/a/sQtSfsyI)       |        
 | Parte 5       |  Native Tokens                                   |          -             |       
 | Parte 6       |  -                                               | Mintear/Quemar Tokens  |        
 | **Día 04**    |                                                  |                        | 
