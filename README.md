@@ -62,7 +62,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | Parte 1       | 👣 Crear nuevo proyecto Aiken                    |          -             |        
 | Parte 2       | 👀 Aiken: CLI, estructura de proyecto, usar docs |    -        |      
 | Parte 3       | 🎞️ Introducción a Aiken                          |          -             |        
-| Parte 4       |  -                                               | Lenguaje Aiken         |        
+| Parte 4       |  -                                               | [Lenguaje Aiken](https://classroom.github.com/a/I02xNV_1)         |        
 | Parte 5       | 🎞️ Introducción a Validadores Plutus             |          -             |        
 | Parte 6       | 👣 Validador "Always true" + off-chain           |         -             |        
 | Parte 7       | 👣 Validador "`redeemer == 42`" + off-chain      |    -             |        
