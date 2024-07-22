@@ -71,7 +71,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | Parte 1       | 🎞️+👣 NextJS - Web2 a Web3                        |          -             |        
 | Parte 2       | 🎞️+👣 NextJS - Simple Tx con browser wallet       |   -             |        
 | Parte 3       | 🎞️ ScriptContext                                 |          -             |        
-| Parte 4       | 👣 (resolver ejercicio luego de 15min)           |  Validador "Consume if signed by" |        
+| Parte 4       | 👣 (resolver ejercicio luego de 15min)           |  [Validador "Consume if signed by"](https://classroom.github.com/a/jAUMX_7O) |        
 | Parte 5       | 🎞️ Tiempo en validadores Plutus                  |          -             |        
 | Parte 6       | 🎞️+👣 Validador "Vesting"                         |          -             |        
 | **Día 06**    |                                                  |                        | 
