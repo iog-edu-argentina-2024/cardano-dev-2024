@@ -1,0 +1,89 @@
+{
+  "preamble": {
+    "title": "rober-m/primeros",
+    "description": "Aiken contracts for project 'rober-m/primeros'",
+    "version": "0.0.0",
+    "plutusVersion": "v2",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.0.29-alpha+16fb02e"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "primeros_validadores.always_true",
+      "datum": {
+        "title": "_datum",
+        "schema": {
+          "$ref": "#/definitions/Void"
+        }
+      },
+      "redeemer": {
+        "title": "_reedemer",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "compiledCode": "5837010000323232322322253330054a229309b2b19299980199b8748000c01000454ccc018c01400452616163754002ae6955ceaab9e5573f",
+      "hash": "181de18f78626e808aec8baa6f640a2bbdb9dbf76337f00f14b9dbbb"
+    },
+    {
+      "title": "primeros_validadores.forty_two",
+      "datum": {
+        "title": "_d",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "redeemer": {
+        "title": "secreto",
+        "schema": {
+          "$ref": "#/definitions/Int"
+        }
+      },
+      "compiledCode": "581a010000322232253330053370e004902a0a4c26cac6eb40055cd1",
+      "hash": "75c447f1fc6d75dcfeb310152024b829b9121932f9559880156cb41a"
+    },
+    {
+      "title": "primeros_validadores.signed_by",
+      "datum": {
+        "title": "pkh",
+        "schema": {
+          "$ref": "#/definitions/ByteArray"
+        }
+      },
+      "redeemer": {
+        "title": "_r",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "compiledCode": "5882010000323232323232232225333005323253330073370e900118041baa300b300c0021323300100100222533300c00114a0264a66601466e3cdd718070010040a51133003003001300e00114a06eb0c028c02cc02cc02cc02cc02cc02cc02cc02cc020dd5180500098039baa00114984d958dd7000ab9a5573aaae7955cfaba15745",
+      "hash": "d7c59f12292cb3d61110f60535123665ce1d573d24fdb2c96103a9a4"
+    }
+  ],
+  "definitions": {
+    "ByteArray": {
+      "dataType": "bytes"
+    },
+    "Data": {
+      "title": "Data",
+      "description": "Any Plutus data."
+    },
+    "Int": {
+      "dataType": "integer"
+    },
+    "Void": {
+      "title": "Unit",
+      "description": "The nullary constructor.",
+      "anyOf": [
+        {
+          "dataType": "constructor",
+          "index": 0,
+          "fields": []
+        }
+      ]
+    }
+  }
+}
