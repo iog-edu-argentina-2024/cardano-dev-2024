@@ -1,0 +1,185 @@
+{
+  "preamble": {
+    "title": "iog/validators",
+    "description": "Aiken contracts for project 'iog/validators'",
+    "version": "0.0.0",
+    "plutusVersion": "v2",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.0.29-alpha+16fb02e"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "nft.nft",
+      "redeemer": {
+        "title": "action",
+        "schema": {
+          "$ref": "#/definitions/nft~1Action"
+        }
+      },
+      "parameters": [
+        {
+          "title": "utxo_ref",
+          "schema": {
+            "$ref": "#/definitions/aiken~1transaction~1OutputReference"
+          }
+        },
+        {
+          "title": "token_name",
+          "schema": {
+            "$ref": "#/definitions/ByteArray"
+          }
+        }
+      ],
+      "compiledCode": "5901df01000032323232323232223223232322533300932533300a3005300b3754002264646464a66602260280042646464a666022601860246ea803454ccc04400454ccc044c02c0084cdc78018070a5014a02a66602266e1d200100213371e00601c2940c8cc004004018894ccc054004528099299980999baf301830153754603000402429444cc00c00c004c060004dd698088011bae300f00116301200132533300d3007300e3754002297adef6c60137566024601e6ea8004c8c8cc004004c8cc004004dd5980a180a980a980a980a8029129998098008a5eb7bdb1804c8c8c8c94ccc050cdc8a4500002153330143371e91010000210031005133018337606ea4008dd3000998030030019bab3015003375c6026004602e004602a00244a666024002298103d87a800013232323253330133372200e0042a66602666e3c01c0084cdd2a40006602e6e980052f5c02980103d87a8000133006006003375660280066eb8c048008c058008c050004dd7180898071baa0033758602000260186ea8c03cc030dd50010b1807180798059baa00114984d958c94ccc020c00c00454ccc02cc028dd50020a4c2c2a66601060040022a66601660146ea80105261616300837540066e1d2002370e90001bae0015734aae7555cf2ab9f5740ae855d11",
+      "hash": "8bec89954b3f7576dee0bde8cfde328574b236b424229a6fa1b2bb6a"
+    },
+    {
+      "title": "oracle.oracle",
+      "datum": {
+        "title": "_datum",
+        "schema": {
+          "$ref": "#/definitions/ByteArray"
+        }
+      },
+      "redeemer": {
+        "title": "redeemer",
+        "schema": {
+          "$ref": "#/definitions/oracle~1OracleRedeemer"
+        }
+      },
+      "parameters": [
+        {
+          "title": "params",
+          "schema": {
+            "$ref": "#/definitions/oracle~1OracleParams"
+          }
+        }
+      ],
+      "compiledCode": "5904b60100003232323232323222322323232253330093232533300b3005300c37540022646464a66601c6012601e6ea80284c8c94ccc040c02cc044dd500089919299980918061998009bab300930143754601260286ea8008dd71803180a1baa3006301437540226eb8c024c050dd51803180a1baa0111325333013300d30143754002264646464a666034603a0042a66602e602266600c6eacc038c064dd50009bae300b30193754601660326ea8058dd71807180c9baa300b3019375402c264a66603001620022940c8c94ccc064c0500045280a99980c9809800899299980d180a980d9baa0011324a26eb8c07cc070dd50008b19991119299980e980b980f1baa001132533302100114c0103d87a8000130103302230230014bd7019198008008029129998110008a5eb804c8c94ccc084c06cc088dd5000899802002001099812981318119baa001330040040023253330213370e900218111baa00113253330223371e6e50dd98008038980a19813000a5eb80530103d87a80003026302337540022980103d87a8000300c30223754604a004604a0022002646600200200644a6660420022980103d87a800013232323253330223372200e0042a66604466e3c01c0084c050cc0980052f5c0298103d87a80001330060060033023003375c6042004604a00460460026603a00697ae03756603c603e603e603e603e603e603e603e603e603e603e60366ea8c034c06cdd50089bae301e301b3754004264944dd7180f180d9baa00230193754002600660326ea80045858c06c004c8cc004004dd61801180c1baa300a3018375401c44a666034002297ae013232533301932533301a3014301b3754002266e3c01cdd7180f980e1baa00114a0601a60366ea8c034c06cdd500109980e80119802002000899802002000980f001180e0009180d180d980d8009bae3018301537540022c600c60286ea8c018c050dd51804980a1baa00216222325333015300f301637540022900009bad301a3017375400264a66602a601e602c6ea80045300103d87a8000132330010013756603660306ea8008894ccc068004530103d87a8000132323232533301b337220100042a66603666e3c0200084c034cc07cdd4000a5eb80530103d87a8000133006006003375a60380066eb8c068008c078008c070004c8cc004004010894ccc0640045300103d87a8000132323232533301a337220100042a66603466e3c0200084c030cc078dd3000a5eb80530103d87a8000133006006003375660360066eb8c064008c074008c06c004c054c048dd50008b19198008009bac300430123754600860246ea8020894ccc0500045300103d87a80001323253330133375e600e602a6ea80080204c014cc05c0092f5c02660080080026030004602c0026e95200010013322323300100100322533301400114a0264a66602466e3cdd7180b8010020a5113300300300130170013758602460266026602660266026602660266026601e6ea8c004c03cdd50029bae3004300f3754018460240026020601a6ea8004528180098061baa0022300f301000114984d958c94ccc020c00c00454ccc02cc028dd50020a4c2c2a66601060040022a66601660146ea80105261616300837540066e1d2002370e90001bae0015734aae7555cf2ab9f5740ae855d101",
+      "hash": "7420ce06a2bb3a4013e907ca0fe13467730943965d1d28c01fc4d811"
+    }
+  ],
+  "definitions": {
+    "ByteArray": {
+      "dataType": "bytes"
+    },
+    "Int": {
+      "dataType": "integer"
+    },
+    "aiken/transaction/OutputReference": {
+      "title": "OutputReference",
+      "description": "An `OutputReference` is a unique reference to an output on-chain. The `output_index`\n corresponds to the position in the output list of the transaction (identified by its id)\n that produced that output",
+      "anyOf": [
+        {
+          "title": "OutputReference",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "transaction_id",
+              "$ref": "#/definitions/aiken~1transaction~1TransactionId"
+            },
+            {
+              "title": "output_index",
+              "$ref": "#/definitions/Int"
+            }
+          ]
+        }
+      ]
+    },
+    "aiken/transaction/TransactionId": {
+      "title": "TransactionId",
+      "description": "A unique transaction identifier, as the hash of a transaction body. Note that the transaction id\n isn't a direct hash of the `Transaction` as visible on-chain. Rather, they correspond to hash\n digests of transaction body as they are serialized on the network.",
+      "anyOf": [
+        {
+          "title": "TransactionId",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "hash",
+              "$ref": "#/definitions/ByteArray"
+            }
+          ]
+        }
+      ]
+    },
+    "nft/Action": {
+      "title": "Action",
+      "anyOf": [
+        {
+          "title": "Minting",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": []
+        },
+        {
+          "title": "Burning",
+          "dataType": "constructor",
+          "index": 1,
+          "fields": []
+        }
+      ]
+    },
+    "oracle/AssetClass": {
+      "title": "AssetClass",
+      "anyOf": [
+        {
+          "title": "AssetClass",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "policy_id",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "name",
+              "$ref": "#/definitions/ByteArray"
+            }
+          ]
+        }
+      ]
+    },
+    "oracle/OracleParams": {
+      "title": "OracleParams",
+      "anyOf": [
+        {
+          "title": "OracleParams",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "o_nft",
+              "$ref": "#/definitions/oracle~1AssetClass"
+            },
+            {
+              "title": "o_operator",
+              "$ref": "#/definitions/ByteArray"
+            }
+          ]
+        }
+      ]
+    },
+    "oracle/OracleRedeemer": {
+      "title": "OracleRedeemer",
+      "anyOf": [
+        {
+          "title": "Update",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": []
+        },
+        {
+          "title": "Delete",
+          "dataType": "constructor",
+          "index": 1,
+          "fields": []
+        }
+      ]
+    }
+  }
+}

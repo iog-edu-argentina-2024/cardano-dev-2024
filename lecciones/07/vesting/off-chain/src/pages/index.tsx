@@ -3,7 +3,7 @@ import Head from "next/head";
 import { CardanoWallet, useWallet } from "@meshsdk/react";
 import { Data, resolveDataHash, resolvePaymentKeyHash, resolvePlutusScriptAddress, resolveSlotNo, Transaction, UTxO } from '@meshsdk/core';
 import { PlutusScript } from '@meshsdk/core';
-import { applyCborEncoding, applyParamsToScript } from "@meshsdk/core-csl";
+import { applyParamsToScript } from "@meshsdk/core-csl";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -33,7 +33,7 @@ export default function Home() {
   }
 
   // Preparar parámetros y aplicar al script
-  function getScript(): Data {
+  function getScript() {
     const dateObject = new Date(fechaLimite);
     const posixTime = dateObject.getTime();
     //const posixTime = dateObject.getTime() - 700000;
