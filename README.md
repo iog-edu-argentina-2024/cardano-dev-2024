@@ -83,7 +83,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | Parte 6       | 👣 PM: NFT + Dapp                                |          -             |        
 | **Día 07**    |                                                  |                        | 
 | Parte 1       | 👣 Oracle + server                               |          -             |        
-| Parte 2       |                                                 | [Validadores "Gift Card"](https://classroom.github.com/a/d0x7oBnT) |        
+| Parte 2       |                                                 ||        
 | **Día 08**    |                                                 |                        | 
 | Parte 1       | 🎞️ Pruebas                                      |          -             |  
 | **Día 09**    |                                                 |                        | 
