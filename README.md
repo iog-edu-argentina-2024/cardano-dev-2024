@@ -79,7 +79,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | Parte 2       | 👣 Validador "Vesting" parametrizado             |          -             |        
 | Parte 3       | 🎞️ Políticas Monetarias                          |          -             |  
 | Parte 4       |                                                  | [PM: "Mint if signed by"](https://classroom.github.com/a/t6ITSlqe) |        
-| Parte 5       |                                                  | PM: "Mint if signed by & Token Name" |        
+| Parte 5       |                                                  | [PM: "Mint if signed by & Token Name"](https://classroom.github.com/a/JAREVxfR) |        
 | Parte 6       | 👣 PM: NFT + Dapp                                |          -             |        
 | **Día 07**    |                                                  |                        | 
 | Parte 1       | 👣 Oracle + server                               |          -             |        
