@@ -90,7 +90,7 @@ Los directorios más relevantes de este repositorio están estructurados de la s
 | Parte 1       | 👀 Stablecoin Dapp                              |          -             |      
 | Parte 2       |                                                | Mejorar Stablecoin     |        
 | **Día 10**    |                                                |                        | 
-| Examen        |                                                | EXAMEN                 |        
+| Examen        |                                                | [EXAMEN](https://classroom.github.com/a/--gy9PfG)                 |        
 
 ## Contenido Opcional
 
